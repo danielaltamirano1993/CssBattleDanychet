@@ -1,0 +1,215 @@
+CSS --> controlar la presentacion de documentos 
+what is?
+cascading style sheets
+que es?
+hojas de estilos en cascada
+
+--Sintaxis
+
+ selector     p
+ declaracion  {}
+ propiedad 	  font-family
+ valor		  Arial
+ 
+--Tipos de Selectores
+ selector de tipo elemento --> p , h1{}
+ selector de tipo clase --> .subheading{}
+ selector de tipo id --> #sidebar{}
+ selectores especificos --> div#sidebar{}
+ selector de tipo descendente --> div p span {}
+ selector agrupado --> h1, h2, .quote{} 
+ 
+--Donde ubicar el CSS 
+
+	-Hojas de estilos externas "Mayoria de proyectos"
+	   <head> <link href="" rel="stylesheet">
+	-Hojas de estilo embebidas
+	   <style>header{}</style>
+	-Estilos incrustados
+	 <style></style>
+
+--Motor de Renderizado
+Cada navegador tiene un motor de renderizado
+Explorer --> Trident
+Opera --> Presto
+Mozilla --> Gecko
+Safari --> Webkit
+Chrome --> Blink
+
+--Trabajar con textos
+	Fuentes del sistema font-family: Arial, Helvetica, Verdana
+	Fuentes Web @font-face
+
+--pixeles
+ Usar font-size: 1em equivale a 16px
+ text-transform:capitalize,uppercase...
+ text-align: center, justify, rigth (defect)
+ line-heigth: 2em;
+ 
+--Box Model --> Modelo de Caja
+margins, bordes, paddings(almohadillas), ancho y alto.
+
+--Sintaxis Padding
+Usar el sentido de manecillas del reloj
+padding: 10px 20px 15px
+
+--Sintaxis Margin
+border-top: 1px;
+border-right: 1px;
+border-bottom: 1px;
+border-left: 1px;
+margin: 10px 20px 15px;
+
+--Sintaxis Border
+border-top: 1px solid black;
+border-right: 1px solid black;
+border-bottom: 1px solid black;
+border-left: 1px solid black;
+
+border: 1px solid black; 
+
+border-color: green;
+
+--Sintaxis Background
+background-color: #ff0;
+background-repeat: no-repeat, repeat-x, repeat-y
+background-position: center center, 20% 80%, top left;
+background-origin: border-box, content-box, border-box;
+background-size: auto, contain, cover;
+
+-- Propiedades color
+border-color : #fffff, #00000;
+background-color: #fff;
+color: rgb(255,128,0,.5); .5 --> opacidad 50%
+
+--Unidades de medida comunes
+ 1 em --> 16px
+ 80%
+ 
+--Position 
+position: relative; --> desplazar mediante left, top;
+position: absolute; --> desplazar dentro del contenedor
+position: fixed;   --> fijo 
+
+--Floats (Flotar elementos)
+float: right;
+float: left; usar con imagen cuadrada
+
+
+--
+multi-column
+
+
+--Prefijos Propietarios
+-ms-    Microsoft
+-moz-	Mozilla
+-o-		Opera
+-webkit-Webkit
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
